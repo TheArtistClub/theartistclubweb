@@ -1,24 +1,20 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">theartistclub</h1>
+    <div class="content">
+      <a href="/">
+        <img class="logo" src="/images/logo.png" alt="The Artist Club Logo" />
+      </a>
+      <h2>Exhibition of contemporary artistic works for the world</h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://play.google.com/store/apps/details?id=art.colombia.artclub"
           target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
         >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
+          <img
+            class="google-play-logo"
+            src="/images/google-play-logo.png"
+            alt="Google Play Logo"
+          />
         </a>
       </div>
     </div>
@@ -31,7 +27,7 @@ import Vue from 'vue'
 export default Vue.extend({})
 </script>
 
-<style>
+<style lang="scss" scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -41,25 +37,21 @@ export default Vue.extend({})
   text-align: center;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
 .links {
   padding-top: 15px;
+}
+
+.content {
+  padding: 0 20px;
+  .logo {
+    width: 300px;
+  }
+  h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .google-play-logo {
+    width: 200px;
+  }
 }
 </style>
