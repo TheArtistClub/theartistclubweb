@@ -4,7 +4,8 @@
       <a href="/">
         <img class="logo" src="/images/logo.png" alt="The Artist Club Logo" />
       </a>
-      <h2>
+      <h2>Terms and conditions</h2>
+      <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
@@ -14,7 +15,7 @@
         of Letraset sheets containing Lorem Ipsum passages, and more recently
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
-      </h2>
+      </p>
     </div>
   </div>
 </template>
