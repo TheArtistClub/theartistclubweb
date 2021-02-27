@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt-ts",
+    "dev:docker": "nuxt-ts -H 0.0.0.0",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
