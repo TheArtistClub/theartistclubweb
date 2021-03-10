@@ -4,7 +4,7 @@
       <a href="/">
         <img class="logo" src="/images/logo.png" alt="The Artist Club Logo" />
       </a>
-      <h2>Exhibition of contemporary artistic works for the world</h2>
+      <h2>Exposición de obras artísticas contemporáneas para el mundo</h2>
       <div class="links">
         <a
           href="https://play.google.com/store/apps/details?id=art.colombia.artclub"
